@@ -3,8 +3,8 @@ import watson_developer_cloud
 
 def callWatsonConversation(input):
     conversation = watson_developer_cloud.ConversationV1(
-        username='61f4632f-8f8c-4292-b9b8-95382d8ef3d8',
-        password='D14UJNo02KCP',
+        username='yourusename',
+        password='yourpassword',
         version='2017-05-26'
     )
 
